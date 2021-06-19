@@ -1,0 +1,23 @@
+apiVersion: v1
+kind: Pod
+metadata:
+ name: sample-pod
+ labels:
+  app: sample
+  env: dev
+spec:
+ containers:
+  - name: sample-container
+    image: nginx:latest
+    ports:
+     - containerPort: 3000
+
+
+
+
+
+
+
+
+
+
